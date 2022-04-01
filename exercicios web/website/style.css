@@ -1,0 +1,68 @@
+
+.tudo{ 
+	border: solid 1px #000;
+}
+.esquerda {			 
+	width: 30%;
+	height: 100px;
+	float: left; 
+	background-color: #666666; 
+	color: #ffffff;
+}
+.direita { 
+	width: 70%;
+	height: 100px;
+	float: left; 
+	background-color: #aaaaaa; 
+}
+.unica{
+	background-color: #dddddd;
+
+	height: 100px;
+}
+.linha{
+	clear: both; /* garante a posição abaixo da divs superiores (esquerda e direita),  */
+}
+.name { align-items: center; 
+	border: solid 1px rgb(10, 230, 29);
+	background-color: #d7ee05;
+}
+.Contato  {align-items:right;
+	float: right; background-color: #aaaaaa;
+}
+.photo { align-items: left; float: left;text-align: left;}
+
+.idiomas {align-items: left; float: left;text-align: left;width: 70%;
+	height: 100px;
+	float: left; 
+	background-color: #aaaaaa;}
+
+.Personalidade{align-items: left; float:left ;text-align: left; width: 70%;
+	height: 100px;
+	float: left; 
+	background-color: #aaaaaa;}
+
+.Habilidades {align-items: left; float: left;text-align: left;width: 70%;
+	height: 100px;
+	float: left; 
+	background-color: #aaaaaa;}
+
+.formação {align-items: left; float: left;text-align: left;width: 70%;
+	height: 100px;
+	float: left; 
+	background-color: #aaaaaa;}
+
+.qualificações {align-items:center; float: center;text-align: center;width: 70%;
+	height: 100px;
+	float: left; 
+	background-color: #aaaaaa;}
+
+.header {align-items: left; float: left;text-align: left;width: 70%;
+	height: 100px;
+	float: left; 
+	background-color: #aaaaaa;}
+
+.objetivos {align-items: center; float: center;text-align: center;width: 70%;
+	height: 100px;
+	float: left; 
+	background-color: #aaaaaa;}
