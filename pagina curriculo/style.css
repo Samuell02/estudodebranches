@@ -1,0 +1,177 @@
+.tudo {
+	background-size: cover;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 38px 30px 38px 30px;
+	border: solid 1px;
+	
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+.esquerda {
+	width: 30%;
+	float: center;
+	background-color: #666666;
+	color: #ffffff;
+}
+
+.direita {
+	width: %;
+	float: center;
+	background-color: #efe7db;
+}
+
+.unica {
+	background-color: #dddddd;
+}
+
+.linha {
+	clear: both;
+	/* garante a posição abaixo da divs superiores (esquerda e direita),  */
+}
+
+.name {
+	align-items: center;
+	border: solid 1px rgb(10, 230, 29);
+	background-color: #d7ee05;
+	border-radius: 18px;
+	padding-top: 10px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	height: 50px;
+
+}
+
+img {
+	border-radius: 50%;
+  }
+
+.Contato {
+	align-items: center;
+	float: center;
+	background-color: #efe7db;
+	border-radius: 15px;
+}
+
+.photo {
+	align-items: center;
+	float: center;
+}
+
+.idiomas {
+	align-items: center;
+	float: center;
+	text-align: center;
+	width: %;
+	height: 100px;
+	float: center;
+	background-color: #efe7db;
+}
+
+.Personalidade {
+	align-items: center;
+	float: center;
+	text-align: center;
+	width: %;
+	height: 100px;
+	float: center;
+	background-color: #efe7db;
+}
+
+.Habilidades {
+	align-items: center;
+	float: center;
+	text-align: center;
+	width: %;
+	height: 100px;
+	float: center;
+	background-color: #efe7db;
+}
+
+.formação {
+	align-items: center;
+	float: center;
+	text-align: center;
+	width: %;
+	height: 100px;
+	float: center;
+	background-color: #efe7db;
+}
+
+.qualificações {
+	align-items: center;
+	float: center;
+	text-align: center;
+	width: %;
+	height: 100px;
+	float: center;
+	background-color: #efe7db;
+}
+
+.header {
+	align-items: center;
+	float: center;
+	text-align: center;
+	width: %;
+	float: center;
+	background-color: #efe7db;
+}
+
+.objetivos {
+	align-items: center;
+	float: center;
+	text-align: center;
+	width: %;
+	float: center;
+	background-color: #efe7db;
+}
+
+hr.solid {
+	border-top: 3px solid rgb(10, 230, 29);
+}
+
+body {
+	font
+}
+
+h1{
+	border-radius: 18px;
+	padding-top: 10px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	height: 50px;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.circle {
+	height: 18px;
+	width:10px;
+	background-color: #804dff;
+	border-radius: 50px;
+	float: right;
+	margin-left: 10px;
+	align-self: center;
+	float: ;
+}
+
+.itens {
+	align-items: center;
+	float: left;
+	clear:left
+}
+
+#coluna1 {
+	width:45%;
+	float: left;
+	text-align: left;
+	margin-left: 2%;
+	margin-right: 2%;
+}

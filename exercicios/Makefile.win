@@ -1,0 +1,33 @@
+# Project: Project1
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = exercicio1v4_private.res
+OBJ      = main.o $(RES)
+LINKOBJ  = main.o $(RES)
+LIBS     = -L"C:/MinGW/lib" -L"C:/MinGW/mingw32/lib" -static-libstdc++ -static-libgcc
+INCS     = -I"C:/MinGW/include" -I"C:/MinGW/mingw32/include" -I"C:/MinGW/lib/gcc/mingw32/6.3.0/include"
+CXXINCS  = -I"C:/MinGW/include" -I"C:/MinGW/mingw32/include" -I"C:/MinGW/lib/gcc/mingw32/6.3.0/include" -I"C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++"
+BIN      = exercicio1v4.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+exercicio1v4_private.res: exercicio1v4_private.rc 
+	$(WINDRES) -i exercicio1v4_private.rc --input-format=rc -o exercicio1v4_private.res -O coff 
+
